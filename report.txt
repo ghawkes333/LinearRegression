@@ -1,0 +1,3 @@
+I started by reviewing the "Linear Regression Reading" posted on Canvas. It provided a concise review of the mathematical concepts behind linear regression. 
+
+To start, I implemented the update equation in Python, set it to update 100 times, and ran it. It came up with a decent line. However, when I set it to run 1000 times, the line was significanlty off. I discovered that the slope decreased on every update rather than looking at the entire batch. 
