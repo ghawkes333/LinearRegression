@@ -1,8 +1,8 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
-params = np.array([[1, 2], [3, 4]])
-input = np.array([[10, 100], [1000, 10000]])
+x = [1, 1, 1]
+y = [[1,1,1], [1,1,1]]
+print(np.shape(y))
 
-print(params * input)
-print(input * params)
-print(np.sum(params*input))
+print([1,2] * [10,10])

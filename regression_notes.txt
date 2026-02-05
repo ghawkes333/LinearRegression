@@ -1,0 +1,9 @@
+The jth index is the COLUMN index, aka the PARAMETER index
+J = 0 for the slope and 1 for the bias
+
+The ith index is the index of the TRAINING EXAMPLE
+i=0 for first training example, i=1 for second, etc
+
+This is why the non-condensed form of the equation uses both x[i] and x[i,j]. 
+The inputs to h(x) are a vector (all the parameters in that row). So it requires x[i], which is a vector of parameters
+When multiplying for the loss, that is different for each parameter. So we multiply a scalar by the loss
