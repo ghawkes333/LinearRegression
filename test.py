@@ -7,4 +7,5 @@ import matplotlib.pyplot as plt
 
 # print([1,2] * [10,10])
 
-print(0 ** 0)
+x_j_input = 10
+print([x_j_input ** i for i in range(4)])
